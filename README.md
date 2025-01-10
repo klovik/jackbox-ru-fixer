@@ -1,2 +1,6 @@
-# jackbox-ru-fixer
- 
+# Фикс The Jackbox Party Pack для РФ
+Скрипт автоматически заменяет сервер игры на резервный, который работает в РФ.
+## Использование
+- Скачайте и запустите [билд программы](https://github.com/klovik/jackbox-ru-fixer/releases/download/1.0/main.exe)
+- Введите путь до папки с игрой
+- Готово
