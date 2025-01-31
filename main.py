@@ -40,22 +40,19 @@ def update_server_url(folder_path, server):
 def main():
     os.system("cls")
     path = input("Game path: ")
-    if "TJPPLoader.swf" not in os.listdir(path):
-        print("Jackbox not found in specified folder")
-    else:
-        s = ""
-        last = 1
-        for server in enumerate(serverlist):
-            s += f"[{server[0]+1}] {server[1]}\n"
-            last = server[0]+1
-        s += f"[{last+1}] custom\n"
+    s = ""
+    last = 1
+    for server in enumerate(serverlist):
+        s += f"[{server[0]+1}] {server[1]}\n"
+        last = server[0]+1
+    s += f"[{last+1}] custom\n"
 
-        sel = input(f"Select a server:\n{s}")
-        if sel == str(last+1):
-            server = input("Server: ")
-            update_server_url(path, server)
-        else:
-            update_server_url(path, serverlist[int(sel)-1])
+    sel = input(f"Select a server:\n{s}")
+    if sel == str(last+1):
+        server = input("Server: ")
+        update_server_url(path, server)
+    else:
+        update_server_url(path, serverlist[int(sel)-1])
 
 if __name__ == "__main__":
     main()
