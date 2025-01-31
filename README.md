@@ -4,7 +4,7 @@
 ![img](https://klvk.ru/u/files/6118fdaf)
 
 ## Использование
-- Скачайте и запустите [билд программы](https://github.com/klovik/jackbox-ru-fixer/releases/download/1.2/jackbox_server_switch.exe)
+- Скачайте и запустите [билд программы](https://github.com/klovik/jackbox-ru-fixer/releases/download/1.3/main.exe)
 - Укажите путь до папки с игрой
 - Выберите номер одного из резервных серверов (на конце НЕ jackboxgames.com), или выберите custom, чтобы самостоятельно указать сервер
 - Готово
